@@ -1,7 +1,7 @@
 import math
 import time
 
-file_name = "5nodes.txt"
+file_name = "6nodes.txt"
 nodes = {}
 route = []
 
@@ -97,7 +97,7 @@ def mainProcess():
         }
         # print(route)  # descomentar esto hace que se muestre la ruta tomada en ese paso
         route.clear()
-    preference = 4      # aquí es donde se establece el punto de partida de preferencia del usuario
+    preference = 1      # aquí es donde se establece el punto de partida de preferencia del usuario
     showResults(start_points_total_distance, preference)
     
 if __name__ == "__main__":
